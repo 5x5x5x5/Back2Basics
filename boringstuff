@@ -1,0 +1,65 @@
+Computery words
+
+C expression
+R most basic programming instruction
+
+C operator
+R
+
+C values
+
+C evaluate
+
+C precedence
+R order of operations
+
+C data type
+R a category for values. There can be only one (per value).
+
+C integer
+
+C floating-point number
+
+C string
+
+C string concatenation
+
+C string replication
+R multiplying a str
+
+C variable
+R 'like a box in the computers memory where you can store a single value'
+
+C statement
+
+C assignment statement
+R a variable name, assignment operator, value to store
+
+C initialize a variable
+R first time a value is stored in a variable
+
+C overwiting a variable
+R reassigning the value of a variable
+
+C Variable name rules
+R only one word, only letters numbers and _, cannot begin with number
+
+C flow control
+
+C condition
+R context of flow control statements; evaluates down to a Boolean
+
+C clause
+R block of code; indentation level denoted
+
+C program execution; execution
+R current instruction
+
+C if statement
+R a clause consisting of an if keyword, a condition, : , an idented block of code
+
+C else statement
+R executed when preceding statements are evaluated as False consisting of an else keyword, : , an indented block of code
+
+
+
