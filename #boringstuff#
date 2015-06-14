@@ -149,3 +149,16 @@ R
 
 C functions summary
 R Functions are an important way to compartmentalize your code into logical groups. Since the vairable in functions exist int their own local scopes, the code in one function cannot directly affect the values of variables in other functions. This limits what code could be changing the values of your variables, which can be helpful when it comes to debugging your code. Paragragh. Functions are a great tool to help you organize your code. You can think of them as black boxes: They have inputs in the form of parameters and outputs in the form of return values, and the code in them doesn't affect variables in other functions. Paragraph. In previous chapters, a single error could cause your programs to crash. In this chapter, you learned about try and except statements, which can run code when an error has been detected. This can make your programs more resilient to common error cases.
+
+C list
+R a value that contains multiple values in an ordered sequence
+
+C list value
+R the list itself
+
+C items
+R values inside a list
+
+C index
+R position in a list
+
