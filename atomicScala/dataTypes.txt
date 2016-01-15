@@ -1,0 +1,18 @@
+// Scripts from the Data Types atom
+
+//type inference
+5.9 + 6
+
+5.9 + "Sally"
+
+// specifying type
+
+val name:type = initialization
+
+// instead of val n = 1 & val p = 1.2
+
+val n:Int = 1
+val p: Double = 1.2
+
+1. val n:Int = 5
+println(n)
