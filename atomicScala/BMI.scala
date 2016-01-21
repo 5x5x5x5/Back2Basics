@@ -23,3 +23,4 @@ if (bmi2 < 18.5) println("Underweight")
 else if (bmi2 < 25) println("Normal weight")
 else println("Over")
 
+// Hi Victoria
