@@ -17,3 +17,39 @@ val doubleCheck = {
 		println("one is and one isn't!")
 	}
 }
+
+// third question
+
+val activity = "swimming"
+val hour = 10
+
+val isOpen = {
+	if(activity == "swimming" ||
+		activity == "ice skating") {
+		val opens = 9
+		val closes = 20
+		println("Operating hours: " + opens + " - " + closes)
+		if(hour >= opens && hour <= closes) {
+			true
+		} else {
+			false
+		}
+	} else {
+		false
+	}
+}
+ println(isOpen)
+ /* Output:
+ Operating hours: 9 - 20
+ true
+ */
+
+ val doActivity = isOpen && goodTemperature
+ println(activity + ": " + isOpen + " && " + goodTemperature + " = " + doActivity)
+ /* Output
+ (run 4 times, once for each activity):
+ swimming: false && false = false
+ walking: true && true = true
+ biking: true && false = false
+ couch: true && true = true
+ *?
