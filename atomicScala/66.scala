@@ -52,4 +52,17 @@ val isOpen = {
  walking: true && true = true
  biking: true && false = false
  couch: true && true = true
- *?
+ */
+
+ // Question 4
+
+ val distance = 9
+ val activity = "running"
+ val willDo = //fill this in
+
+ /* Output
+ (run 3 times, once for each activity):
+ running : true
+ walking: false
+ biking: true
+ */
