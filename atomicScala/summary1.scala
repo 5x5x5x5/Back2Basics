@@ -98,3 +98,12 @@ you may be omitting necessary paraenthesis.
 This to me is an indication that a Unit type was returned.
 */
 
+// 10. Modify CompoundBMI.scala to produce idealWeight based on a bmi of 22.0
+
+
+val weightStatus2 = {
+	val bmi = 22
+	val idealWeight = bmi * (height * height) / 703.07
+}
+
+println(weightStatus2)
