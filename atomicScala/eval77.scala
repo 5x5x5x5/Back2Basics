@@ -35,3 +35,14 @@ val t1 = isArg1GreaterThanArg2(4.1, 4.12)
 assert( t1 == false)
 val t2 = isArg1GreaterThanArg2(2.1, 1.2)
 assert( t2 == true)
+
+// 4.
+
+def getMe(s:String) = {
+	s.toLowerCase
+}
+
+val g1 = getMe("abraCaDabra")
+assert("abracadabra" == g1, "My message to the world")
+val g2 = getMe("zyxwVUT")
+assert("zyxwvut" == g2, "If you're reading this, say Oops")
