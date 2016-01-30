@@ -46,3 +46,14 @@ val g1 = getMe("abraCaDabra")
 assert("abracadabra" == g1, "My message to the world")
 val g2 = getMe("zyxwVUT")
 assert("zyxwvut" == g2, "If you're reading this, say Oops")
+
+// 5.
+
+def addStrings(s:String, p:String) = {
+	s + p
+}
+
+val s1 = addStrings("abc", "def")
+assert(s1 == "abcdef", "I really wish you weren't reading this")
+val s2 = addStrings("zyx", "abc")
+assert("zyxabc" == s2, "Again with the errors and the printing...")
