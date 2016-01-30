@@ -7,4 +7,4 @@ r2.step
 
 // 2.
 var s = "This is an experiment"
-s.plit(" ")
+s.split(" ")

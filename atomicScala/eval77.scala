@@ -57,3 +57,14 @@ val s1 = addStrings("abc", "def")
 assert(s1 == "abcdef", "I really wish you weren't reading this")
 val s2 = addStrings("zyx", "abc")
 assert("zyxabc" == s2, "Again with the errors and the printing...")
+
+// 6.
+
+def manyTimesString(s:String, i:Int):String = {
+	s * i
+}
+
+val m1 = manyTimesString("abc", 3)
+assert("abcabcabc" == m1, "You did it wrong")
+val m2 = manyTimesString("123", 2)
+assert("123123" == m2, "Wrong again, honey!")
