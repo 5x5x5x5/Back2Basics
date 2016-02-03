@@ -68,3 +68,21 @@ val m1 = manyTimesString("abc", 3)
 assert("abcabcabc" == m1, "You did it wrong")
 val m2 = manyTimesString("123", 2)
 assert("123123" == m2, "Wrong again, honey!")
+
+// 7.
+
+def bmiStatus(a:Double, b:Double) = {
+	val bmi = a / (b * b) * 703.07
+	if(bmi < 18.5) "Underweight"
+	else if(bmi < 25) "Normal weight"
+	else "Overweight"
+}
+
+val normal = bmiStatus(160, 68)
+assert("Normal weight" == normal, "Expected Normal weight, Got " + normal)
+
+val overweight = bmiStatus(180, 60)
+assert("Overweight" == overweight, "You got some 'splainin to do")
+
+val underweight = bmiStatus(100, 68)
+assert("Underweight" == underweight, "Expected Underweight, Got " + underweight)
