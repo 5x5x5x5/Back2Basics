@@ -17,7 +17,16 @@ var s1:String = "Sally"
 var s2:String = "Sally"
 
 if(s1.equals(s2)) println("s1 and s2 are equal")
-else println("s1 and s2 don't seem to muatch up")
+else println("s1 and s2 don't seem to match up")
 
 // 4. 
 
+var s3:String = "Sam"
+if(s1.equals(s3)) println("s1 and s3 are equal")
+else println("Not gonna happen")
+
+// 5.
+
+var s4 = s1.toUpperCase
+if(s1.contentEquals(s4)) println("They are equal")
+else println("What in blue blazes is going on here?")
