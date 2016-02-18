@@ -119,3 +119,70 @@ object Max extends App {
     maxAccum2(ints, 0)
   }
 }
+
+/*
+ * A Scala Fibonacci recursion example
+ * Calculating a Fibonacci sequence recursively using Scala.
+ */
+
+object Fibonacci extends App {
+
+  println(fib(1, 2))
+
+  def fib (prevPrev:Int, prev:Int) {
+    val next = prevPrev + prev
+    println(next)
+    if(next > 1000000) System.exit(0)
+    fib(prev, next)
+  }
+}
+
+
+import scala.annotation.tailrec
+/*
+ * The 'fibHelper' code comes from this url: rosettacode.org/wiki/Fibonacci_sequence#Scala
+ * Nice use of helper function that also limits is scope
+ */
+
+object FibonacciTailRecursive extends App {
+
+  println(fib(9))
+
+  def fib(x: Int): BigInt = {
+    @tailrec def fibHelper(x: Int, prev: BigInt = 1): BigInt = x match {
+      case 0 => prev
+      case 1 => next
+      case _ => fibHelper(x - 1, next, (next + prev))
+    }
+    fibHelper(x)
+  }
+
+
+/* Recursive factorial algorithms */
+
+package recursion
+import scala.annotation.tailrec
+
+object Factorial extends App {
+
+  println(factorial(5))
+  println(factorial2(5))
+
+  // (1) basic recursive factorial method
+  def factorial(n:Int):Int = {
+    if (n == 0) 1
+    else n * factorial(n-1)
+  }
+
+  // (2) tail-recursive factorial method
+  def factorial2(n:Long):Long = {
+    @tailrec
+    def factorialAccumulator(acc:Long, n:Long):Long = {
+      if (n==0) acc
+      else factorialAccumulator(n*acc, n-1)
+    }
+    factorialAccumulator(1, n)
+  }
+}
+
+/* code practice thanks to alvinalexander.com/scala/scala-recursion-examples-recursive-programming
