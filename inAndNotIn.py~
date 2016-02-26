@@ -1,7 +1,0 @@
-# inAndNotIn.py
-
-'howdy' in ['hello', 'hi', 'howdy', 'heyas']
-spam = ['hello', 'hi', 'howdy', 'heyas']
-'howdy' not in spam
-'cats' not in spam
-'cat' in spam
