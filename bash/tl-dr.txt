@@ -1,0 +1,6 @@
+Bash gets commands by reading lines. As soon as it's read enough lines to compose a single command, bash begins running that command. Usually, commands are just a single line long. An interactive bash session reads lines from you at the prompt. Non-interactive bash processes read their command lines from a file or stream. Files with a #!hashbang as their first line (and the executable permission) can be started by your system's kernal like any other program.
+
+Bash is a lax language interpreter, which means it will permit you to write ambiguous commands. Its syntax will not prevent you from writing commands that do things that are not what they seem. It is solely your responsibility to learn the syntax adequately, recognize the pitfalls and pick up the discipline to stick to the practices that avoid buggy code consistently.
+
+Bash commands tell bash to perform a certain unit of work. These units of work cannot be subdivided: bash needs to know the whole command to be able to execute it. There are different kinds of commands for different types of operations. Some commands group other commends into blocks or test their result. Many command types are syntax sugar: their effect can be achieved differently, but they exist to make the job easier.
+
