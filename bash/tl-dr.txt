@@ -37,3 +37,5 @@ directory, use the path
 to that program as your 
 command's name.
 
+To tell a command what to do, we pass it *arguments. In bash, arguments are *tokens*, also called *words*, that are separated from each other by blank space. To include blank space in an argument's value, you need to either *quote* the argument or *escape* the blank space within. Failing that, bash will break your arguments at its blank space. Quoting arguments also prevents other symbols in it from being accidentally interpreted as bash code, such as '$10 USD' (variable expansions), "*** NOTICE ***" (filename expansions), etc.
+
