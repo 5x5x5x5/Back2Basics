@@ -4,3 +4,21 @@ Bash is a lax language interpreter, which means it will permit you to write ambi
 
 Bash commands tell bash to perform a certain unit of work. These units of work cannot be subdivided: bash needs to know the whole command to be able to execute it. There are different kinds of commands for different types of operations. Some commands group other commends into blocks or test their result. Many command types are syntax sugar: their effect can be achieved differently, but they exist to make the job easier.
 
+To run a command, bash 
+uses the name of your 
+command and performs a 
+search for how to 
+execute that command. 
+In order, bash will 
+check whether it has a 
+*function* or *builtin* 
+by that name. Failing 
+that, it will try to 
+run the name as a 
+program. If bash finds 
+no way to run your 
+command, it will output 
+an error message.
+
+
+
