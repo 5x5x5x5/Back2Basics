@@ -20,5 +20,20 @@ no way to run your
 command, it will output 
 an error message.
 
-
+When bash needs to run 
+a program, it uses the 
+command name to perform 
+a search. Bash searches 
+the directories in your 
+PATH *environment 
+variable*, one by one, 
+until it finds a 
+directory that contains 
+a program with the name 
+of your command. To run 
+a program that is not 
+installed in a PATH 
+directory, use the path 
+to that program as your 
+command's name.
 
