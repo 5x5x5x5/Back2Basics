@@ -1,3 +1,6 @@
+# Learning to design programs is primarily about the study of principles and the
+# acquisition of transferable skills.
+
 expression
 primitive
 number
@@ -14,3 +17,5 @@ primitive call rule
 new kinds of primitives
 string
 image
+constant
+function
