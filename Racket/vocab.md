@@ -19,3 +19,8 @@ string
 image
 constant
 function
+
+signature
+purpose
+stub
+template
