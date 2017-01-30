@@ -24,3 +24,7 @@ signature
 purpose
 stub
 template
+
+interval
+enumeration
+itemization
